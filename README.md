@@ -2,9 +2,9 @@
 
 ## By Jan Kostecki 2017
 
-System created to improve school's book sale, work as extension of [Egielda](github.com/m4tx/egielda)
+System created to improve school's book sale, work as extension of [Egielda](https://github.com/m4tx/egielda)
 
-For full compability of programs, in egielda in file orders/templates/orders/fulfill_accept.html exchange line 20 with:
+For full compability of programs, in Egielda in file orders/templates/orders/fulfill_accept.html exchange line 20 with:
 
 ```
 <button onclick="window.open('/IMS/newTask.php?id={{ order.pk }}');" class="ui primary icon labeled button right floated" type="submit">
