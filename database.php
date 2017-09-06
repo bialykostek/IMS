@@ -1,6 +1,6 @@
 <?php
 
-    $link = mysqli_connect("localhost", "root", "Palonek$$$", "ims");
+    $link = mysqli_connect("localhost", "root", "password", "ims");
     if(!$link){
         die("Some fucking error while connecting to the database");
     }
